@@ -1,2 +1,9 @@
-# Lubuntu Desktop [![Docker Pulls](https://img.shields.io/docker/pulls/dockerzone/lubuntu-desktop.svg?style=flat)](https://registry.hub.docker.com/u/dockerzone/lubuntu-desktop/) [![Docker Stars](https://img.shields.io/docker/stars/dockerzone/lubuntu-desktop.svg?style=flat)](https://registry.hub.docker.com/u/atkrad/lubuntu-desktop/)
- Dockerized Lubuntu Desktop.
+# Dockerized Lubuntu Desktop .
+## Build the dockerfile ising the following command below
+```
+docker biild -t lubuntu .
+```
+after the dockerfile is done building, run the dockerfile image using the following command below.
+```
+docker run -it -p 5901:5901 --name lubuntu lubuntu
+``
