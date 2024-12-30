@@ -1,7 +1,7 @@
 # Dockerized Lubuntu Desktop .
 ## Build the dockerfile ising the following command below
 ```
-docker biild -t lubuntu .
+docker build -t lubuntu .
 ```
 after the dockerfile is done building, run the dockerfile image using the following command below.
 ```
