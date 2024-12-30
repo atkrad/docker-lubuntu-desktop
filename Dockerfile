@@ -13,8 +13,8 @@ RUN /opt/install
 COPY assets/init /opt/init
 RUN chmod 755 /opt/init
 
-VOLUME ["/home/vnc/share"]
-WORKDIR /home/vnc
+VOLUME ["/home/lubuntu/share"]
+WORKDIR /home/lubuntu
 
 ENTRYPOINT ["/opt/init"]
 CMD ["start"]
