@@ -1,10 +1,9 @@
-FROM ubuntu:15.04
-MAINTAINER Mohammad Abdoli Rad <m.abdolirad@gmail.com>
+FROM ubuntu:latest
+MAINTAINER William <gitxpresso@outlook.com>
 
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y xorg nano locate zsh supervisor logrotate git curl wget tightvncserver openssh-server \
-    lxde-core lxappearance lxterminal firefox lubuntu-icon-theme lubuntu-artwork-15-04 lubuntu-lxpanel-icons lubuntu-artwork \
-    xfonts-100dpi xfonts-100dpi-transcoded xfonts-75dpi xfonts-75dpi-transcoded xfonts-base \
+    lubuntu-desktop \
  && rm -rf /var/lib/apt/lists/*
 
 COPY assets/install /opt/install
