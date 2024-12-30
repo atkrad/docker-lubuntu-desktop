@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-USER_LOGIN="vnc"
+USER_LOGIN="lubuntu"
 USER_PASSWORD="${USER_PASSWORD:-vncpass}"
 USER_HOME="/home/${USER_LOGIN}"
 USER_DATA_DIR="${USER_HOME}/data"
